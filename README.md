@@ -17,7 +17,7 @@ $form = new Form;
 
 $chromium = new Chromium ($form);
 $chromium->dock = dsFill;
-$chromium->url  = 'vk.com';
+$chromium->load ('vk.com');
 
 $form->showDialog ();
 ```
