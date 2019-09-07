@@ -15,9 +15,8 @@ namespace VoidEngine;
 
 $form = new Form;
 
-$chromium = new Chromium ($form);
+$chromium = new Chromium ($form, 'vk.com');
 $chromium->dock = dsFill;
-$chromium->load ('vk.com');
 
 $form->showDialog ();
 ```
